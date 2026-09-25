@@ -63,6 +63,7 @@ const dummydata = [
     quantity: 15,
   },
 ];
+
   return (
     <div>
       <h1 id="heading">Our fod menu Application</h1>
