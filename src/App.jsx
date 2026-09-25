@@ -4,7 +4,12 @@ function App() {
   return (
     <div>
       <h1 id="heading">Our fod menu Application</h1>
-      <h3>Our Menu</h3>
+      <h3 style={
+        {
+          textAlign: "center",
+          color:"AccentColor"
+        }
+      }>Our Menu</h3>
       <p className="para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laborum
         vero deleniti ipsum sequi ex sed illum! Eius, consectetur vero?
@@ -26,7 +31,7 @@ function App() {
             <p>Quantity: 0</p>
           </li>
         </div>
-        <li>
+        {/* <li>
           <div>
             <img src="" alt="" />
           </div>
@@ -81,7 +86,7 @@ function App() {
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
