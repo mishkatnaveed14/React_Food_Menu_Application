@@ -17,6 +17,7 @@ function App() {
         vero deleniti ipsum sequi ex sed illum! Eius, consectetur vero?
       </p>
       <ul id="foodlist">
+         
         <li>
           <div id="imageArea">
             <img
@@ -33,63 +34,119 @@ function App() {
             <p>Quantity: 0</p>
           </div>
         </li>
-        {/* <li>
-          <div>
-            <img src="" alt="" />
+        <li>
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="" />
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="" />
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="" />
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="" />
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="" />
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
         </li>
         <li>
-          <div>
-            <img src="" alt="" />
+          <div id="imageArea">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+              alt=""
+            />
           </div>
-          <h4></h4>
-          <p></p>
-          <p>Quantity: </p>
-        </li> */}
-      </ul>
+          <div id="con-2">
+            <h4>Biryani</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              blanditiis!
+            </p>
+            <p>Quantity: 0</p>
+          </div>
+        </li>
+        </ul>
     </div>
   );
 }
