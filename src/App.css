@@ -7,10 +7,16 @@
   margin: auto;
   text-align: center;
 }
+ul{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
 li{
   display: flex;
   align-items: center;
   list-style: none;
+  width: 35%;
 }
 #imageArea{
   width: 100px;
