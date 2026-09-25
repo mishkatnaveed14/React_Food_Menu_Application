@@ -94,7 +94,7 @@ function App() {
                 <p>
                  {foodItem.paragraph}
                 </p>
-                <p> {foodItem.quantity == 0? 'sold out' : `Quantity: ${foodItem.quantity}`}{{foodItem.quantity}>= 20? "Buy 1 get 1 free": } </p>
+                <p> {foodItem.quantity == 0? 'sold out' : `Quantity: ${foodItem.quantity}`}{foodItem.quantity >= 20? "Buy 1 get 1 free": ""} </p>
               </div>
             </li>
           );
