@@ -24,7 +24,7 @@ function App() {
               alt=""
             />
           </div>
-          <div>
+          <div id="con-2">
             <h4>Biryani</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
