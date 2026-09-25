@@ -12,7 +12,7 @@ function App() {
       title: "Chicken Karahi",
       img: "https://images.unsplash.com/photo-1601050690597-df0568f70950",
       paragraph: "Spicy aur tasty chicken karahi",
-      quantity: 5,
+      quantity: 0,
     },
     {
       title: "Chicken Tikka",
@@ -24,7 +24,7 @@ function App() {
       title: "Beef Burger",
       img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
       paragraph: "Cheesy aur juicy beef burger",
-      quantity: 10,
+      quantity: 0,
     },
     {
       title: "Pizza",
@@ -94,7 +94,7 @@ function App() {
                 <p>
                  {foodItem.paragraph}
                 </p>
-                <p> {foodItem.quantity} </p>
+                <p> {foodItem.quantity == 0? 'sold out' : `Quantity: ${foodItem.quantity}`} </p>
               </div>
             </li>
           );
