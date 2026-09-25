@@ -11,49 +11,71 @@ function App() {
       </p>
       <ul id="foodlist">
         <li>
-          <img src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg" alt="" />
+         <div id="imageArea">
+           <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/080/772/437/small_2x/premium-chicken-biryani-with-grilled-drumsticks-photo.jpg"
+            alt=""
+          />
+         </div>
           <h4>Biryani</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, blanditiis!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            blanditiis!
+          </p>
           <p>Quantity: 0</p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
         </li>
         <li>
-          <img src="" alt="" />
+          <div>
+            <img src="" alt="" />
+          </div>
           <h4></h4>
           <p></p>
           <p>Quantity: </p>
