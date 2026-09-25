@@ -36,7 +36,7 @@ function App() {
       title: "Chicken Roll",
       img: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f",
       paragraph: "Crispy aur spicy chicken roll",
-      quantity: 9,
+      quantity: 20,
     },
     {
       title: "Nihari",
@@ -94,7 +94,7 @@ function App() {
                 <p>
                  {foodItem.paragraph}
                 </p>
-                <p> {foodItem.quantity == 0? 'sold out' : `Quantity: ${foodItem.quantity}`} </p>
+                <p> {foodItem.quantity == 0? 'sold out' : `Quantity: ${foodItem.quantity}`}{{foodItem.quantity}>= 20? "Buy 1 get 1 free": } </p>
               </div>
             </li>
           );
