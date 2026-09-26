@@ -2,7 +2,7 @@ export default function PropsPractice() {
     var color = 'yellow'
   return(
    <div>
-     <Mybtn title= "jani" bg='purple'/>
+     <Mybtn  bg='purple'/>
     <Mybtn  title="ahad" bg='brown'/>
     <Mybtn  title="laiba" bg={color} />
     <Mybtn  title="Meelad" bg='papayawhip'/>
@@ -22,7 +22,7 @@ function Mybtn(props) {
           margin:"30px"
         }}
       >
-        {props.title}
+        {props.title || "No Data"}
       </button>
     </div>
   );
