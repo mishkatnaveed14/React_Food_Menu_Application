@@ -1,12 +1,14 @@
 export default function PropsPractice() {
     var color = 'yellow'
   return(
-   <div>
+  //  <div>
+  <>
      <Mybtn  bg='purple'/>
     <Mybtn  title="ahad" bg='brown'/>
     <Mybtn  title="laiba" bg={color} />
     <Mybtn  title="Meelad" bg='papayawhip'/>
-   </div>
+  {/* //  </div> */}
+  </>
   );
 }
 function Mybtn({title,bg}) {
