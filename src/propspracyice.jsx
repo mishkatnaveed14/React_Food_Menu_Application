@@ -1,9 +1,10 @@
 export default function PropsPractice() {
+    var color = 'yellow'
   return(
    <div>
      <Mybtn title= "jani" bg='purple'/>
     <Mybtn  title="ahad" bg='brown'/>
-    <Mybtn  title="laiba" bg='yellow'/>
+    <Mybtn  title="laiba" bg={color} />
     <Mybtn  title="Meelad" bg='papayawhip'/>
    </div>
   );
