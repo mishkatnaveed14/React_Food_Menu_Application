@@ -1,14 +1,14 @@
 export default function PropsPractice() {
   return(
    <div>
-     <Mybtn/>
-    <Mybtn/>
-    <Mybtn/>
-    <Mybtn/>
+     <Mybtn title="jani"/>
+    <Mybtn  title="ahad"/>
+    <Mybtn  title="laiba"/>
+    <Mybtn  title="Meelad"/>
    </div>
   );
 }
-function Mybtn() {
+function Mybtn(props) {
   return (
     <div>
       <button
@@ -19,7 +19,7 @@ function Mybtn() {
           borderRadius: "10px",
         }}
       >
-        A
+        {props.title}
       </button>
     </div>
   );
