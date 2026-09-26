@@ -9,20 +9,21 @@ export default function PropsPractice() {
    </div>
   );
 }
-function Mybtn(props) {
+const {bg,title} = props
+function Mybtn({title,bg}) {
   return (
     <div>
       <button
         style={{
           width: "200px",
           height: "40px",
-          backgroundColor: props.bg ,
+          backgroundColor: bg ,
           border: "2px solid black",
           borderRadius: "10px",
           margin:"30px"
         }}
       >
-        {props.title || "No Data"}
+        {title || "No Data"}
       </button>
     </div>
   );
