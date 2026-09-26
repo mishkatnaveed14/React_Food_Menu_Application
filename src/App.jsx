@@ -1,6 +1,35 @@
 import "./App.css";
 
 function App() {
+  return (
+    <div>
+      <HeadingComponent />
+      <FoodList />
+    </div>
+  );
+}
+
+export default App;
+function HeadingComponent() {
+  return (
+    <div>
+      <h1 id="heading">Our fod menu Application</h1>
+      <h3
+        style={{
+          textAlign: "center",
+          color: "AccentColor",
+        }}
+      >
+        Our Menu
+      </h3>
+      <p className="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laborum
+        vero deleniti ipsum sequi ex sed illum! Eius, consectetur vero?
+      </p>
+    </div>
+  );
+}
+function FoodList() {
   const dummydata = [
     {
       title: "Biryani",
@@ -63,11 +92,8 @@ function App() {
       quantity: 15,
     },
   ];
-
   return (
     <div>
-      <HeadingComponent />
-
       <ul id="foodlist">
         {dummydata.map((foodItem) => {
           return (
@@ -90,27 +116,6 @@ function App() {
           );
         })}
       </ul>
-    </div>
-  );
-}
-
-export default App;
-function HeadingComponent() {
-  return (
-    <div>
-      <h1 id="heading">Our fod menu Application</h1>
-      <h3
-        style={{
-          textAlign: "center",
-          color: "AccentColor",
-        }}
-      >
-        Our Menu
-      </h3>
-      <p className="para">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laborum
-        vero deleniti ipsum sequi ex sed illum! Eius, consectetur vero?
-      </p>
     </div>
   );
 }
