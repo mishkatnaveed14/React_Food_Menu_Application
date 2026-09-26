@@ -66,6 +66,38 @@ function App() {
 
   return (
     <div>
+      <HeadingComponent />
+
+      <ul id="foodlist">
+        {dummydata.map((foodItem) => {
+          return (
+            <li>
+              <div id="imageArea">
+                <img src={foodItem.img} alt="" />
+              </div>
+              <div id="con-2">
+                <h4>{foodItem.title} </h4>
+                <p>{foodItem.paragraph}</p>
+                <p>
+                  {" "}
+                  {foodItem.quantity == 0
+                    ? "sold out"
+                    : `Quantity: ${foodItem.quantity}`}
+                  {foodItem.quantity >= 20 ? "Buy 1 get 1 free" : ""}{" "}
+                </p>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
+export default App;
+function HeadingComponent() {
+  return (
+    <div>
       <h1 id="heading">Our fod menu Application</h1>
       <h3
         style={{
@@ -79,29 +111,6 @@ function App() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laborum
         vero deleniti ipsum sequi ex sed illum! Eius, consectetur vero?
       </p>
-      <ul id="foodlist">
-        {dummydata.map((foodItem) => {
-          return (
-            <li>
-              <div id="imageArea">
-                <img
-                  src={foodItem.img}
-                  alt=""
-                />
-              </div>
-              <div id="con-2">
-                <h4>{foodItem.title} </h4>
-                <p>
-                 {foodItem.paragraph}
-                </p>
-                <p> {foodItem.quantity == 0? 'sold out' : `Quantity: ${foodItem.quantity}`}{foodItem.quantity >= 20? "Buy 1 get 1 free": ""} </p>
-              </div>
-            </li>
-          );
-        })}
-      </ul>
     </div>
   );
 }
-
-export default App;
