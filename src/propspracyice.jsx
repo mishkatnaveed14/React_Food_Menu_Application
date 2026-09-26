@@ -13,7 +13,7 @@ function Mybtn() {
     <div>
       <button
         style={{
-          width: "100px",
+          width: "200px",
           backgroundColor: "papayawhip",
           border: "2px solid black",
           borderRadius: "10px",
