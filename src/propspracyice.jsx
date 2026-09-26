@@ -10,7 +10,6 @@ export default function PropsPractice() {
   );
 }
 function Mybtn({title,bg}) {
-  
   return (
     <div>
       <button
