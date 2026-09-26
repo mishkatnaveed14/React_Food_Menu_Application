@@ -9,8 +9,9 @@ export default function PropsPractice() {
    </div>
   );
 }
-const {bg,title} = props
+  const [bg,title] = props
 function Mybtn({title,bg}) {
+  
   return (
     <div>
       <button
